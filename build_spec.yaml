@@ -27,3 +27,4 @@ steps:
     command: |
       echo "Current version"
       node --version
+      nvm --version
