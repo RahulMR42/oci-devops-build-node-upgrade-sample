@@ -30,5 +30,8 @@ steps:
       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
       nvm --version
       nvm install v16
-      node --version
       nvm ls
+      nvm use 16.14.2
+      nvm alias default 16.14.2
+      echo "Version to v16"
+      node --version
